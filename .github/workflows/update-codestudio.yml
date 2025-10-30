@@ -1,0 +1,26 @@
+name: Update CodeStudio Stats
+on:
+  schedule:
+    - cron: '0 */12 * * *'   # every 12 hours
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+      - name: Run scraper
+        run: python codestudio_scraper.py
+      - name: Commit & push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add codestudio_stats.md
+          git commit -m "Updated CodeStudio stats" || echo "No changes"
+          git push
