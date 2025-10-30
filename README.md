@@ -53,10 +53,15 @@
 
 ## 📊 Coding Profiles
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/akhileshrawat?theme=dark&font=Roboto&ext=heatmap)  
+![LeetCode Stats](https://leetcard.jacoblin.cool/Akhileshrawat12?theme=dark&font=Roboto&ext=heatmap)  
 
 [![LeetCode Badge](https://img.shields.io/badge/LeetCode-Profile-orange?logo=LeetCode)](https://leetcode.com/Akhileshrawat12/)
 [![CodeStudio Badge](https://img.shields.io/badge/Coding%20Ninjas-CodeStudio-orange)](https://www.codingninjas.com/codestudio/profile/AkhileshRawat)
+
+## 📊 CodeStudio Stats (auto-updated)
+<!-- This section updates every 12 hours -->
+![](./codestudio_stats.md)
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=AkhileshRawatGit&label=Profile%20views&color=brightgreen&style=flat" alt="Profile Views" />   <a href="https://github.com/sponsors/AkhileshRawatGit" target="_blank" rel="noreferrer noopener"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-%23db61a2?logo=GitHub-Sponsors&style=social" alt="Sponsor @AkhileshRawatGit" /></a>
 </p>
